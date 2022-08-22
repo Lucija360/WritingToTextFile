@@ -67,6 +67,7 @@ string filePath = @"Insert your File Path here ";
 using (var writer = new StreamWriter(filePath, true))
 {
     writer.Write(stopwatch.ElapsedMilliseconds);
-};```
+};
+```
 
 Hopefully this could help you 😃
